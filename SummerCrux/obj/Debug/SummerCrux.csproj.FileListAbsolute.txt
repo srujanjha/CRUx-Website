@@ -3,3 +3,9 @@ F:\MY OWN\Projects\SummerCrux\SummerCrux\bin\SummerCrux.pdb
 F:\MY OWN\Projects\SummerCrux\SummerCrux\obj\Debug\SummerCrux.csprojResolveAssemblyReference.cache
 F:\MY OWN\Projects\SummerCrux\SummerCrux\obj\Debug\SummerCrux.dll
 F:\MY OWN\Projects\SummerCrux\SummerCrux\obj\Debug\SummerCrux.pdb
+C:\Users\Srujan\Documents\GitHub\CRUx-Website\SummerCrux\bin\SummerCrux.dll.config
+C:\Users\Srujan\Documents\GitHub\CRUx-Website\SummerCrux\bin\SummerCrux.dll
+C:\Users\Srujan\Documents\GitHub\CRUx-Website\SummerCrux\bin\SummerCrux.pdb
+C:\Users\Srujan\Documents\GitHub\CRUx-Website\SummerCrux\obj\Debug\SummerCrux.csprojResolveAssemblyReference.cache
+C:\Users\Srujan\Documents\GitHub\CRUx-Website\SummerCrux\obj\Debug\SummerCrux.dll
+C:\Users\Srujan\Documents\GitHub\CRUx-Website\SummerCrux\obj\Debug\SummerCrux.pdb

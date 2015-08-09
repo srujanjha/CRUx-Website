@@ -1,17 +1,18 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="SummerCrux.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="SummerCrux.Default" Async="true" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
     <meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<meta name="Crux - The Computing and Programming Club of BITS-Pilani, Hyderabad Campus" content="The Computing and Programming Club of BITS-Pilani, Hyderabad Campus" />
-	<meta name="author" content="Sagar anand, President, Crux - The Computing and Programming Club of BITS-Pilani, Hyderabad Campus" />
+	<meta name="author" content="Sagar anand, Ex-President, Crux - The Computing and Programming Club of BITS-Pilani, Hyderabad Campus" />
 
-	<title>CRUx - BITS-Pilani, Hyderabad Campus</title>
+	<title>CRUx-The Programming & Computing Club of BPHC</title>
 
     <!-- for the favicon -->
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -554,8 +555,9 @@
 
 </head>
 <body id="bodyTop">
+    
     <form id="form1" runat="server">
-
+        
         <div id="alertMsg" class="alert alert-warning" role="alert">
 		</div>
 
@@ -572,8 +574,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand hidden-sm hidden-xs" href="http://crux-hyd.azurewebsites.net">Crux - The Programming & Computing Club at BPHC</a>
-                    <a class="navbar-brand hidden-lg hidden-sm" href="http://crux-hyd.azurewebsites.net">Crux - BPHC</a>
+                    <a class="navbar-brand hidden-sm hidden-xs" href="http://crux-bphc.azurewebsites.net">Crux - The Programming & Computing Club at BPHC</a>
+                    <a class="navbar-brand hidden-lg hidden-sm" href="http://crux-bphc.azurewebsites.net">Crux - BPHC</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -639,17 +641,9 @@
                 </p>--%>
 
                 <h2 class="page-header">
-                    Featured Content
+                    Current Members
                 </h2>
-
-                <ol>
-                    <%--<li>
-                        <a href="content/PilaniPDF.pdf" target="_blank">A PDF</a> by students of Pilani Campus. [Inter-disciplinary]
-                    </li>--%>
-                    <li>
-                        <a href="https://sites.google.com/a/goa.bits-pilani.ac.in/what-do-i-do-after-my-first-year/" target="_blank">A Document</a> by students of Goa Campus. [Only accessible through BITSmail]
-                    </li>
-                </ol>
+                <img src="img/members.png"/>
 
             </div>   <!-- end of about Us Div -->
 
@@ -1113,7 +1107,6 @@ The resources listed here will significantly reduce the amount of effort needed 
             </div>
           </div>
         </div>
-
     </form>
 
     <!-- for bootstrap CSS and JS files. Included here to improve the page load time -->
