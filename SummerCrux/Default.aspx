@@ -9,7 +9,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<meta name="Crux - The Computing and Programming Club of BITS-Pilani, Hyderabad Campus" content="The Computing and Programming Club of BITS-Pilani, Hyderabad Campus" />
+	<meta name="CRUx - The Computing and Programming Club of BITS-Pilani, Hyderabad Campus" content="The Computing and Programming Club of BITS-Pilani, Hyderabad Campus" />
 	<meta name="author" content="Sagar anand, Ex-President, Crux - The Computing and Programming Club of BITS-Pilani, Hyderabad Campus" />
 
 	<title>CRUx-The Programming & Computing Club of BPHC</title>
@@ -230,6 +230,7 @@
 
             // for all the variable to all the divs.
             var aboutUsDiv = $('#aboutUsDiv').hide();
+            var membersDiv = $('#membersDiv').hide();
             var compCodingDiv = $('#compCodingDiv').hide();
             var webDevDiv = $('#webDevDiv').hide();
             var androidDiv = $('#androidDiv').hide();
@@ -254,6 +255,28 @@
                 showDiv(aboutUsDiv);
                 return false;
             });
+            $('.members').on('click', function () {
+                if (!$(this).hasClass('active')) {
+                    changeActiveState(this);
+                    showDiv(membersDiv);
+                }
+
+                // this is for conditions of scrolling depending on the device size.
+                if ($(window).width() >= 1200) {
+                }
+                else if ($(window).width() >= 992) {
+                }
+                else if ($(window).width() >= 768) {
+                }
+                else if ($(window).width() >= 480) {
+                    $('#hiddenMembers').trigger('click');
+                }
+                else {
+                    $('#hiddenMembers').trigger('click');
+                }
+                return false;
+            });
+
 
             // for competitive coding.
             $('.coding').on('click', function () {
@@ -592,7 +615,9 @@
             
             <!-- for the list group on the LHS -->
 		    <div class="col-lg-2 col-md-2 col-sm-3 navDiv">
-
+                <div class="list-group">
+			        <a href="#" class="list-group-item members scrolly">Members</a>
+			    </div>
                 <div class="list-group">
                     <a href="#" class="list-group-item coding scrolly">Competitive Coding</a>
 			    </div>
@@ -633,23 +658,40 @@
                 </p>
 
                 <p>
-                    This initiative is brought to you by Crux for helping the students, especially those who have spent their maiden year in College in learning the basics of various fields of Computer Science and related technologies, thus building a community of student developers.
+                    This initiative is brought to you by CRUx for helping the students, especially those who have spent their maiden year in College in learning the basics of various fields of Computer Science and related technologies, thus building a community of student developers.
                 </p>
 
                 <%--<p>
                     Check out our Featured Content below for a quick start with the content
                 </p>--%>
-
                 <h2 class="page-header">
-                    Current Members
+                    Notice
                 </h2>
-                <img src="img/members.png"/>
+                <h3>
+                    CRUx Coding Contest
+                </h3>
+                CRUx is organizing its first coding contest of the semester on <b>25th August, 2015</b> from <b>6 to 9 PM</b>. The overall winner and top 3 first yearites will be eligible for some exciting prizes.
+                <br />The contest will be held on the <a href="https://www.hackerrank.com/domains">HackerRank</a> platform and questions will be a mix of logical and mathematical problems to be solved in any language of your choice.
+                <br />First-yearites may make use of the IPC which has been specially booked for the purpose. Seniors will be there to assist you with any issues with the contest.
+                <br />The platform supports 20 major languages. You can have a look at the <a href="https://hackerrank.com/environment">environment</a> in which we run your code. You can try out sample code given in <a href="https://www.hackerrank.com/challenges/solve-me-first">Solve Me First</a> to get familiar with I/O. 
+                
 
             </div>   <!-- end of about Us Div -->
-
+           
              <!-- for the Competitive Div Div -->
+            <a href="#membersDiv" class="scrolly" id="hiddenMembers"></a>
+            <div class="col-lg-10 col-md-10 col-sm-9 divsMain membersDiv" id="membersDiv">
+          
+                <h1 class="page-header">
+                    Current Members
+                </h1>
+                <img src="img/members.png"/>
+
+            </div>   <!-- end of Current Members Div -->
+
             <a href="#compCodingDiv" class="scrolly" id="hiddenCoding"></a>
             <div class="col-lg-10 col-md-10 col-sm-9 divsMain codingDiv" id="compCodingDiv">
+          
                 <h1 class="page-header">
                     Competitive Coding
                 </h1>
