@@ -671,12 +671,12 @@
                     CRUx Inductions
                 </h3>
                 <img src="img/inductions.jpg"/>
-<br />You saw us at the technical orientation presenting Sophie and all the other cool stuff we do. Now is your chance to be part of us.
+<p><br />You saw us at the technical orientation presenting Sophie and all the other cool stuff we do. Now is your chance to be part of us.
 
 <br/>Friday 28th August is the scheduled date for inductions. Venue shall be intimated shortly. You may apply for three fields - "Competitive Coding", "Web-Dev"/"App-Dev" or showcase(open-profile).
 <br />Start by filling up this <a href="https://docs.google.com/forms/d/1andm3l6GtbM9MfZhJrcoIYfZC9xPcko4lo3QXcdBLow/viewform">form</a>.
                 <br />For any doubt and Queries, Contact us: Srujan Jha (+919010718698), Kushagra Mehta (+917729987330) or Sagar Srivastava (+917729987432)
-            </div>   <!-- end of about Us Div -->
+          </p>  </div>   <!-- end of about Us Div -->
            
              <!-- for the Competitive Div Div -->
             <a href="#membersDiv" class="scrolly" id="hiddenMembers"></a>
