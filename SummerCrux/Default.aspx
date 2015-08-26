@@ -668,14 +668,14 @@
                     Notice
                 </h2>
                 <h3>
-                    CRUx Coding Contest
+                    CRUx Inductions
                 </h3>
-                CRUx is organizing its first coding contest of the semester on <b>25th August, 2015</b> from <b>6 to 9 PM</b>. The overall winner and top 3 first yearites will be eligible for some exciting prizes.
-                <br />The contest will be held on the <a href="https://www.hackerrank.com/domains">HackerRank</a> platform and questions will be a mix of logical and mathematical problems to be solved in any language of your choice.
-                <br />First-yearites may make use of the IPC which has been specially booked for the purpose. Seniors will be there to assist you with any issues with the contest.
-                <br />The platform supports 20 major languages. You can have a look at the <a href="https://hackerrank.com/environment">environment</a> in which we run your code. You can try out sample code given in <a href="https://www.hackerrank.com/challenges/solve-me-first">Solve Me First</a> to get familiar with I/O. 
-                
+                <img src="img/inductions.jpg"/>
+<br />You saw us at the technical orientation presenting Sophie and all the other cool stuff we do. Now is your chance to be part of us.
 
+<br/>Friday 28th August is the scheduled date for inductions. Venue shall be intimated shortly. You may apply for three fields - "Competitive Coding", "Web-Dev"/"App-Dev" or showcase(open-profile).
+<br />Start by filling up this <a href="https://docs.google.com/forms/d/1andm3l6GtbM9MfZhJrcoIYfZC9xPcko4lo3QXcdBLow/viewform">form</a>.
+                <br />For any doubt and Queries, Contact us: Srujan Jha (+919010718698), Kushagra Mehta (+917729987330) or Sagar Srivastava (+917729987432)
             </div>   <!-- end of about Us Div -->
            
              <!-- for the Competitive Div Div -->

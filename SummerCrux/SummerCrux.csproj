@@ -73,6 +73,7 @@
     <Content Include="font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="img\cruxLogo.PNG" />
     <Content Include="img\favicon.ico" />
+    <Content Include="img\inductions.jpg" />
     <Content Include="img\loading1.gif" />
     <Content Include="img\loading2.gif" />
     <Content Include="img\loading3.gif" />
